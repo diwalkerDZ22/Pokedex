@@ -1,8 +1,8 @@
 import { FlatList, Image, StyleSheet, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { Card } from "./components/Card";
-import { ThemedText } from "./components/ThemedText";
-import { useThemeColors } from "./hooks/useThemeColors";
+import { Card } from "../components/Card";
+import { ThemedText } from "../components/ThemedText";
+import { useThemeColors } from "../hooks/useThemeColors";
 import { PokemonCard } from "./pokemon/PokemonCard";
 
 export default function Index() {
