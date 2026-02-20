@@ -1,7 +1,7 @@
 import { Image, StyleSheet, View, ViewStyle } from "react-native"
 import { Card } from "../../components/Card"
 import { ThemedText } from "../../components/ThemedText"
-import { useThemeColors } from "../hooks/useThemeColors"
+import { useThemeColors } from "../../hooks/useThemeColors"
 
 type Props = {
     style?: ViewStyle,
